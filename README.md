@@ -95,7 +95,7 @@ The goal of this repository is to showcase good [Laravel](https://laravel.com) d
 
 ![Laravel blog main page](docs/screenshot-main-page.png)
 
-![Laravel blog admin panel](docs/screenshot-admin-panel.png)
+
 
 ## Requesting features
 
@@ -106,7 +106,7 @@ Open a new [issue](https://github.com/gomzyakov/larajournal/issues) to request a
 Clone the project:
 
 ```bash
-git clone git@github.com:gomzyakov/larajournal.git
+git clone https://github.com/anandkumar7722/ip_project.git
 ```
 
 I believe you already have Docker installed. If not, just do it on [Mac](https://docs.docker.com/desktop/install/mac-install/), [Windows](https://docs.docker.com/desktop/install/windows-install/) or [Linux](https://docs.docker.com/desktop/install/linux-install/).
