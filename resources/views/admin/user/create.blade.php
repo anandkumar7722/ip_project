@@ -7,7 +7,7 @@
             <div class="container-fluid">
                 <div class="row mb-2">
                     <div class="col-sm-6">
-                        <h1 class="m-0">Добавление пользователя</h1>
+                        <h1 class="m-0">Add User</h1>
                     </div><!-- /.col -->
                 </div><!-- /.row -->
             </div><!-- /.container-fluid -->
@@ -23,37 +23,37 @@
                             @csrf
                             <div class="card-body pl-0">
                                 <div class="form-group">
-                                    <label>Введите имя пользователя:</label>
+                                    <label>Enter username:</label>
                                     <input type="text" class="form-control" name="name"
-                                           placeholder="Имя пользователя">
+                                           placeholder="Username">
                                     @error('name')
-                                    <div class="text-danger">Это поле необходимо заполнить</div>
+                                    <div class="text-danger">This field is required</div>
                                     @enderror
                                 </div>
                             </div>
                             <div class="card-body pl-0">
                                 <div class="form-group">
-                                    <label>Введите электронную почту пользователя:</label>
+                                    <label>Enter user email:</label>
                                     <input type="text" class="form-control" name="email"
                                            placeholder="Email">
                                     @error('email')
-                                    <div class="text-danger">Это поле необходимо заполнить</div>
+                                    <div class="text-danger">This field is required</div>
                                     @enderror
                                 </div>
                             </div>
                             <div class="card-body pl-0">
                                 <div class="form-group">
-                                    <label>Введите роль пользователя:</label>
+                                    <label>Enter user role:</label>
                                     <select name="role" class="form-control">
-                                        <option value="administrator">Администратор</option>
-                                        <option value="reader">Читатель</option>
+                                        <option value="administrator">Administrator</option>
+                                        <option value="reader">Reader</option>
                                     </select>
                                     @error('role')
-                                    <div class="text-danger">Это поле необходимо заполнить</div>
+                                    <div class="text-danger">This field is required</div>
                                     @enderror
                                 </div>
                             </div>
-                            <input type="submit" class="btn btn-primary" value="Добавить">
+                            <input type="submit" class="btn btn-primary" value="Add">
                         </form>
                     </div>
                 </row>

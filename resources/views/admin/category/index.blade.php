@@ -19,7 +19,7 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-1 mb-3">
-                        <a href="{{ route('admin.category.create') }}" class="btn btn-primary">Добавить</a>
+                        <a href="{{ route('admin.category.create') }}" class="btn btn-primary">add</a>
                     </div>
                 </div>
                 <!-- /.row -->
@@ -32,10 +32,10 @@
                                     <thead>
                                     <tr>
                                         <th>ID</th>
-                                        <th>Название</th>
-                                        <th>Просмотр</th>
-                                        <th>Обновление</th>
-                                        <th>Удаление</th>
+                                        <th>Categories</th>
+                                        <th></th>
+                                        <th></th>
+                                       
                                     </tr>
                                     </thead>
                                     <tbody>

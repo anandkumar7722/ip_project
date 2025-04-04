@@ -15,7 +15,7 @@
                 @enderror
             </div>
             <div class="form-group">
-                <label>Текст поста</label>
+                <label>des</label>
                 <textarea class="form-control" name="content" rows="6">{{ old('content') }}</textarea>
                 @error('content')
                 <div class="text-danger">{{ $message }}</div>

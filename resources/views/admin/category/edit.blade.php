@@ -7,7 +7,7 @@
             <div class="container-fluid">
                 <div class="row mb-2">
                     <div class="col-sm-6">
-                        <h1 class="m-0">Редактирование категории</h1>
+                        <h1 class="m-0">add category here</h1>
                     </div><!-- /.col -->
                 </div><!-- /.row -->
             </div><!-- /.container-fluid -->
@@ -24,15 +24,15 @@
                             @method('patch')
                             <div class="card-body pl-0">
                                 <div class="form-group">
-                                    <label>Название категории</label>
+                                    <label>enter here</label>
                                     <input type="text" class="form-control" name="title"
                                             value="{{ $category->title }}"
                                     @error('title')
-                                    <div class="text-danger">Это поле необходимо заполнить</div>
+                                    <div class="text-danger">Э</div>
                                     @enderror
                                 </div>
                             </div>
-                            <input type="submit" class="btn btn-primary" value="Обновить">
+                            <input type="submit" class="btn btn-primary" value="category">
                         </form>
                     </div>
                 </row>

@@ -7,7 +7,7 @@
             <div class="container-fluid">
                 <div class="row mb-2">
                     <div class="col-sm-6">
-                        <h1 class="m-0">Добавление категории</h1>
+                        <h1 class="m-0">add</h1>
                     </div><!-- /.col -->
                 </div><!-- /.row -->
             </div><!-- /.container-fluid -->
@@ -23,15 +23,15 @@
                             @csrf
                             <div class="card-body pl-0">
                                 <div class="form-group">
-                                    <label>Название категории</label>
+                                    <label>Category Name</label>
                                     <input type="text" class="form-control" name="title"
-                                           placeholder="Название категории">
+                                           placeholder="Category Name">
                                     @error('title')
-                                    <div class="text-danger">Это поле необходимо заполнить</div>
+                                    <div class="text-danger">This field is required</div>
                                     @enderror
                                 </div>
                             </div>
-                            <input type="submit" class="btn btn-primary" value="Добавить">
+                            <input type="submit" class="btn btn-primary" value="enter">
                         </form>
                     </div>
                 </row>
